@@ -1,0 +1,51 @@
+.grid {
+  margin: 10px 0 0;
+}
+.gridRow {
+  margin: 0 0 0 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.nav {
+  padding: none;
+  margin: none;
+  color: rgb(252, 252, 252);
+  background-color: rgb(26, 24, 133);
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  font-size: 1.1rem;
+}
+.gameOfLife {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.nav ul {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+.button {
+  background-color: rgb(26, 24, 133);
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.node {
+  width: 1.3vw;
+  height: 1.3vw;
+  outline: 1px solid rgb(111, 216, 235);
+  display: inline-block;
+  margin: 0;
+}
+
+.node-alive {
+  background-color: rgb(20, 40, 70);
+}
