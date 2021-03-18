@@ -49,7 +49,7 @@ export default class PathfindingVisualizer extends Component {
       setTimeout(() => {
         grid = this.nextLevel(grid);
         this.playGame(grid);
-      }, 320);
+      }, 1);
     }else{
       this.setState({playing: true});
     }
