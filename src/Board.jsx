@@ -160,7 +160,7 @@ export default class PathfindingVisualizer extends Component {
         <div className="grid">
           {grid.map((row, rowIdx) => {
             return (
-              <div key={rowIdx}>
+              <div key={rowIdx} className = "rowOfNodes">
                 {row.map((node, nodeIdx) => {
                   const {row, col, isAlive} = node;
                   return (

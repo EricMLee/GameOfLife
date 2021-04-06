@@ -49,3 +49,8 @@
   font-size: 16px;
   cursor: pointer;
 }
+.rowOfNodes{
+  margin: 0;
+  padding: 0;
+  height: 1.3vw;
+}
